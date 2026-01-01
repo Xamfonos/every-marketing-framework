@@ -19,11 +19,11 @@ export default function Home() {
           </div>
 
           <h1 className="mb-6 text-6xl font-black leading-tight tracking-tight text-gradient md:text-7xl">
-            Master Every Marketing Framework!
+            Master Every Marketing Framework You'll Ever Need!
           </h1>
 
           <p className="mx-auto mb-12 max-w-2xl text-xl leading-relaxed text-text-secondary">
-            Marketing strategy is scattered across 50+ books, 200+ blogs, and countless frameworks.
+            Marketing strategy is scattered across 200+ books, 1000+ blogs, and countless frameworks.
             <br />
             You don't have time to piece it together. We already did.
             <br />
@@ -62,6 +62,113 @@ export default function Home() {
             <div className="text-center">
               <div className="mb-2 font-mono text-5xl font-black text-primary-light">AI</div>
               <div className="text-sm text-text-secondary">Powered Solution</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="relative z-10 px-6 py-24">
+        <div className="container mx-auto max-w-7xl">
+          <div className="mb-16 text-center">
+            <div className="mb-4 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-accent">
+              The Process
+            </div>
+            <h2 className="mb-4 text-5xl font-black tracking-tight">How It Works</h2>
+            <p className="mx-auto max-w-2xl text-lg text-text-secondary">
+              No more jumping between books, blogs, and ChatGPT. See the complete map. Apply the right frameworks. Solve your problem.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-3">
+            {/* Step 1 */}
+            <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-primary/50 hover:shadow-glow">
+              <div className="mb-6 flex items-start justify-between">
+                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-3xl">
+                  🎯
+                </div>
+                <div className="font-mono text-4xl font-black text-primary/20">01</div>
+              </div>
+              <h3 className="mb-3 text-2xl font-bold">See the Complete Map</h3>
+              <p className="text-text-secondary">
+                Open any of our 9+ marketing roadmaps. See 98+ frameworks organized by how they actually connect. Dependencies shown. Prerequisites clear. No more guessing what comes first.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-primary/50 hover:shadow-glow">
+              <div className="mb-6 flex items-start justify-between">
+                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-3xl">
+                  🔒
+                </div>
+                <div className="font-mono text-4xl font-black text-primary/20">02</div>
+              </div>
+              <h3 className="mb-3 text-2xl font-bold">Learn What You Need</h3>
+              <p className="text-text-secondary">
+                Each framework shows you what problem it solves, when to use it, what you need to know first, and how to apply it. Practical examples from successful businesses included.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-primary/50 hover:shadow-glow">
+              <div className="mb-6 flex items-start justify-between">
+                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-3xl">
+                  ⚡
+                </div>
+                <div className="font-mono text-4xl font-black text-primary/20">03</div>
+              </div>
+              <h3 className="mb-3 text-2xl font-bold">Get AI-Powered Solutions</h3>
+              <p className="text-text-secondary">
+                Don't have time to navigate manually? Input your business problem. Our AI identifies which frameworks apply and outputs custom strategic solutions for your specific context. Minutes, not hours.
+              </p>
+            </div>
+          </div>
+
+          {/* Visual Flow Diagram */}
+          <div className="mt-16 rounded-2xl border border-white/10 bg-dark-elevated p-8">
+            <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+              <div className="flex-1 text-center">
+                <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-4xl">
+                  📚
+                </div>
+                <h4 className="mb-2 font-bold">Strategic Foundations</h4>
+                <p className="text-sm text-text-tertiary">Build foundational understanding</p>
+              </div>
+              
+              <div className="text-4xl text-primary/30">→</div>
+              
+              <div className="flex-1 text-center">
+                <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-4xl">
+                  🧩
+                </div>
+                <h4 className="mb-2 font-bold">Core Frameworks</h4>
+                <p className="text-sm text-text-tertiary">Master proven methodologies</p>
+              </div>
+              
+              <div className="text-4xl text-primary/30">→</div>
+              
+              <div className="flex-1 text-center">
+                <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-4xl">
+                  🚀
+                </div>
+                <h4 className="mb-2 font-bold">Advanced Applications</h4>
+                <p className="text-sm text-text-tertiary">Execute with confidence</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Key Differentiator */}
+          <div className="mt-12 rounded-2xl border border-accent/30 bg-gradient-to-br from-accent/5 to-transparent p-8">
+            <div className="flex items-start gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-accent/20 text-2xl">
+                💡
+              </div>
+              <div>
+                <h4 className="mb-2 text-xl font-bold">Why This Approach Works</h4>
+                <p className="text-text-secondary">
+                  The difference between junior and senior marketers is knowing which framework to use when, what prerequisites you need, and how to apply it to your specific context. We give you the complete map. You bring the problem. Together we solve it faster.
+                </p>
+              </div>
             </div>
           </div>
         </div>
