@@ -1,4 +1,4 @@
-# No Norm Co. - Marketing Roadmaps Platform
+Every Marketing Framework Platform
 
 A Next.js platform for marketing education featuring interactive roadmaps, comprehensive frameworks, and AI-powered analysis.
 
