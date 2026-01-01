@@ -259,8 +259,8 @@ npm run dev
 
 ## 📞 Support
 
-For issues or questions, contact: [your-email@example.com]
+For issues or questions, contact: www.henrybassey.com
 
 ---
 
-Built with ❤️ by No Norm Co.
+Built with ❤️ by Henry Bassey of No Norm Co.
