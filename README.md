@@ -1,4 +1,4 @@
-# No Norm Co. - Marketing Roadmaps Platform
+Every Marketing Framework Platform
 
 A Next.js platform for marketing education featuring interactive roadmaps, comprehensive frameworks, and AI-powered analysis.
 
@@ -259,8 +259,8 @@ npm run dev
 
 ## 📞 Support
 
-For issues or questions, contact: [your-email@example.com]
+For issues or questions, contact: www.henrybassey.com
 
 ---
 
-Built with ❤️ by No Norm Co.
+Built with ❤️ by Henry Bassey of No Norm Co.
