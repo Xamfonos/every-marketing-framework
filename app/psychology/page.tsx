@@ -115,8 +115,8 @@ export default function PsychologyHub() {
       {/* Hero Section */}
       <section className="relative z-10 px-6 py-24">
         <div className="container mx-auto max-w-6xl">
-          <div className="mb-6 inline-block rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-2">
-            <span className="font-semibold text-purple-400">🧠 Marketing Psychology</span>
+          <div className="mb-6 inline-block rounded-full border border-primary/30 bg-primary/10 px-4 py-2">
+            <span className="font-semibold text-primary">Marketing Psychology</span>
           </div>
           
           <h1 className="mb-6 text-7xl font-black leading-tight tracking-tight">
@@ -150,7 +150,7 @@ export default function PsychologyHub() {
           <div className="flex flex-wrap gap-4">
             <a
               href="#roadmaps"
-              className="rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-4 font-semibold transition-all hover:-translate-y-1 hover:shadow-glow"
+              className="rounded-lg bg-gradient-to-r from-primary to-accent px-8 py-4 font-semibold transition-all hover:-translate-y-1 hover:shadow-glow"
             >
               Explore Psychology Roadmaps
             </a>
@@ -167,10 +167,10 @@ export default function PsychologyHub() {
       {/* Why Psychology Matters */}
       <section className="relative z-10 px-6 py-16">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="mb-12 text-5xl font-black">Why Psychology Matters in Marketing</h2>
+          <h2 className="mb-12 text-5xl font-black">Why Psychology in Marketing?</h2>
           
           <div className="grid gap-8 md:grid-cols-2">
-            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-8">
+            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-primary/10 to-accent/10 p-8">
               <h3 className="mb-4 text-2xl font-bold">Most Marketers Copy Tactics</h3>
               <p className="text-text-secondary">
                 They see a successful campaign and try to replicate it. &quot;Instagram works for them, 
@@ -179,7 +179,7 @@ export default function PsychologyHub() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-8">
+            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-primary/10 to-accent/10 p-8">
               <h3 className="mb-4 text-2xl font-bold">Psychology Gives You First Principles</h3>
               <p className="text-text-secondary">
                 When you understand the underlying psychology—how habits form, why people buy, 
@@ -188,7 +188,7 @@ export default function PsychologyHub() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-8">
+            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-primary/10 to-accent/10 p-8">
               <h3 className="mb-4 text-2xl font-bold">It&apos;s About Understanding People</h3>
               <p className="text-text-secondary">
                 Marketing isn&apos;t about tricks or manipulation. It&apos;s about understanding what people 
@@ -197,7 +197,7 @@ export default function PsychologyHub() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-8">
+            <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-primary/10 to-accent/10 p-8">
               <h3 className="mb-4 text-2xl font-bold">The Best Marketers Know Psychology</h3>
               <p className="text-text-secondary">
                 Every legendary marketer—from Claude Hopkins to Eugene Schwartz to modern growth 
@@ -225,10 +225,10 @@ export default function PsychologyHub() {
               <Link
                 key={idx}
                 href={`/psychology/roadmaps/${roadmap.slug}`}
-                className="group relative overflow-hidden rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-purple-500 hover:shadow-2xl"
+                className="group relative overflow-hidden rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-primary hover:shadow-2xl"
               >
                 {/* Animated background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 transition-opacity group-hover:opacity-100" />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 transition-opacity group-hover:opacity-100" />
                 
                 <div className="relative">
                   {/* Icon */}
@@ -262,7 +262,7 @@ export default function PsychologyHub() {
                       {roadmap.frameworks.map((framework, fIdx) => (
                         <span
                           key={fIdx}
-                          className="rounded-lg bg-purple-500/10 px-3 py-1 text-sm text-purple-400"
+                          className="rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary"
                         >
                           {framework}
                         </span>
@@ -271,7 +271,7 @@ export default function PsychologyHub() {
                   </div>
 
                   {/* CTA */}
-                  <div className="flex items-center gap-2 font-semibold text-purple-400">
+                  <div className="flex items-center gap-2 font-semibold text-primary">
                     <span>Start Learning</span>
                     <span className="transition-transform group-hover:translate-x-2">→</span>
                   </div>
@@ -298,9 +298,9 @@ export default function PsychologyHub() {
               <Link
                 key={idx}
                 href={`/frameworks/${framework.slug}`}
-                className="group rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-purple-500 hover:shadow-lg"
+                className="group rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-primary hover:shadow-lg"
               >
-                <h3 className="mb-3 text-2xl font-bold group-hover:text-purple-400">
+                <h3 className="mb-3 text-2xl font-bold group-hover:text-primary-400">
                   {framework.title}
                 </h3>
                 <p className="mb-4 text-text-secondary">{framework.description}</p>
@@ -317,7 +317,7 @@ export default function PsychologyHub() {
           <div className="mt-12 text-center">
             <Link
               href="/frameworks#psychology"
-              className="inline-block rounded-lg border border-purple-500/30 bg-purple-500/10 px-8 py-4 font-semibold text-purple-400 transition-all hover:bg-purple-500/20"
+              className="inline-block rounded-lg border border-primary/30 bg-primary/10 px-8 py-4 font-semibold text-primary transition-all hover:bg-primary/20"
             >
               View All Psychology Frameworks →
             </Link>
@@ -328,12 +328,12 @@ export default function PsychologyHub() {
       {/* Learning Path */}
       <section className="relative z-10 px-6 py-24">
         <div className="container mx-auto max-w-6xl">
-          <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-12">
+          <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-primary/10 to-accent/10 p-12">
             <h2 className="mb-8 text-4xl font-black">Your Psychology Learning Journey</h2>
             
             <div className="space-y-8">
               <div className="flex items-start gap-6">
-                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-500/20 text-2xl font-bold text-purple-400">
+                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary/20 text-2xl font-bold text-primary">
                   1
                 </div>
                 <div>
@@ -346,7 +346,7 @@ export default function PsychologyHub() {
               </div>
 
               <div className="flex items-start gap-6">
-                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-500/20 text-2xl font-bold text-purple-400">
+                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary/20 text-2xl font-bold text-primary">
                   2
                 </div>
                 <div>
@@ -359,7 +359,7 @@ export default function PsychologyHub() {
               </div>
 
               <div className="flex items-start gap-6">
-                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-500/20 text-2xl font-bold text-purple-400">
+                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary/20 text-2xl font-bold text-primary">
                   3
                 </div>
                 <div>
@@ -372,7 +372,7 @@ export default function PsychologyHub() {
               </div>
 
               <div className="flex items-start gap-6">
-                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-500/20 text-2xl font-bold text-purple-400">
+                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary/20 text-2xl font-bold text-primary">
                   4
                 </div>
                 <div>
@@ -391,7 +391,7 @@ export default function PsychologyHub() {
       {/* CTA */}
       <section className="relative z-10 px-6 py-24">
         <div className="container mx-auto max-w-4xl">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-500 to-pink-500 p-12 text-center">
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-accent p-12 text-center">
             <div className="absolute -right-1/2 -top-1/2 h-full w-full animate-[rotate_20s_linear_infinite] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.1)_0%,transparent_70%)]" />
             
             <div className="relative z-10">
@@ -403,7 +403,7 @@ export default function PsychologyHub() {
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link
                   href="/psychology/roadmaps/behavioral-psychology"
-                  className="rounded-lg bg-white px-8 py-4 font-semibold text-purple-600 transition-all hover:-translate-y-1 hover:shadow-2xl"
+                  className="rounded-lg bg-white px-8 py-4 font-semibold text-primary transition-all hover:-translate-y-1 hover:shadow-2xl"
                 >
                   Start Learning Psychology
                 </Link>

@@ -29,7 +29,7 @@ export default function Header() {
             </Link>
             <Link
               href="/psychology"
-              className="text-sm font-medium text-text-secondary transition-colors hover:text-purple-400"
+              className="text-sm font-medium text-text-secondary transition-colors hover:text-primary"
             >
               🧠 Psychology
             </Link>

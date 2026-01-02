@@ -25,8 +25,6 @@ export default function Home() {
           <p className="mx-auto mb-12 max-w-2xl text-xl leading-relaxed text-text-secondary">
             Marketing strategy is scattered across 200+ books, 1000+ blogs, and countless frameworks.
             <br />
-            You don't have time to piece it together. We already did.
-            <br />
             See the entire marketing landscape in one visual map. Apply frameworks that works.
           </p>
 
