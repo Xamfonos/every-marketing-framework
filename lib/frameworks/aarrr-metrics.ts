@@ -19,12 +19,40 @@ export const aarrMetricsFramework: FrameworkData = {
     'Diagnosing why growth has stalled',
   ],
   
+  learningPath: {
+    description: 'Master the fundamentals of growth marketing by understanding how to measure and optimize each stage of the user journey.',
+    prerequisites: [
+      { slug: 'marketing-first-principles', title: 'Marketing First Principles' }
+    ],
+    pathway: [
+      { slug: 'aarrr-metrics', title: 'AARRR Pirate Metrics', isCurrentFramework: true },
+      { slug: 'north-star-metric', title: 'North Star Metric' },
+      { slug: 'growth-loops', title: 'Growth Loops' }
+    ],
+    alternatives: [
+      { slug: 'ice-scoring', title: 'ICE Scoring Framework' }
+    ]
+  },
+
   coreConcepts: [
     {
       title: 'The Five Stages of AARRR',
       content: `AARRR breaks the customer journey into five sequential stages. Each stage has specific metrics, goals, and optimization strategies.
 
 The framework forms a funnel: you need users flowing through each stage to reach the next. A leak at any stage limits your overall growth.`
+    ,
+      embeddedResources: [
+        {
+          type: 'video',
+          data: {
+            title: 'AARRR Metrics — A Practical Guide',
+            author: 'Growth University',
+            url: 'https://www.youtube.com/watch?v=example-aarrr',
+            duration: '18:00',
+            whyWatch: 'Short walkthrough of the AARRR funnel and sample metrics to track at each stage.'
+          }
+        }
+      ]
     },
     {
       title: 'Stage 1: Acquisition',
@@ -371,22 +399,6 @@ If Retention is your bottleneck:
       downloadUrl: '/templates/experiment-prioritization.pdf'
     }
   ],
-  
-  learningPath: {
-    description: 'Master the fundamentals of growth marketing by understanding how to measure and optimize each stage of the user journey.',
-    prerequisites: [
-      { slug: 'marketing-first-principles', title: 'Marketing First Principles' }
-    ],
-    pathway: [
-      { slug: 'aarrr-metrics', title: 'AARRR Pirate Metrics', isCurrentFramework: true },
-      { slug: 'north-star-metric', title: 'North Star Metric' },
-      { slug: 'growth-loops', title: 'Growth Loops' }
-    ],
-    alternatives: [
-      { slug: 'ice-scoring', title: 'ICE Scoring Framework' }
-    ]
-  },
-  
   relatedFrameworks: [
     { title: 'Growth Loops', slug: 'growth-loops' },
     { title: 'North Star Metric', slug: 'north-star-metric' },

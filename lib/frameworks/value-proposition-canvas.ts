@@ -47,7 +47,19 @@ Most companies start with the Value Map ("Here's what we built!") and try to fin
 
 **The right approach:** Start with the Customer Profile. Deeply understand what customers need. THEN design your Value Map to match.
 
-Think of it like this: The Customer Profile is the lock. The Value Map is the key. You can't design the key before examining the lock.`
+      Think of it like this: The Customer Profile is the lock. The Value Map is the key. You can't design the key before examining the lock.`,
+      embeddedResources: [
+        {
+          type: 'video',
+          data: {
+            title: 'Value Proposition Canvas — Overview',
+            author: 'Strategyzer',
+            url: 'https://www.youtube.com/watch?v=example-vpc',
+            duration: '10:12',
+            whyWatch: 'A concise walkthrough of the canvas and how to map customer jobs, pains, and gains.'
+          }
+        }
+      ]
     },
     {
       title: 'Customer Profile: Understanding the Lock',

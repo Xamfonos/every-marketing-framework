@@ -18,7 +18,20 @@ export const marketingFirstPrinciplesFramework: FrameworkData = {
     'Questioning conventional marketing wisdom',
   ],
   
-  coreConcepts: [
+    learningPath: {
+      description: 'Start here to build a solid foundation in marketing thinking and then layer on frameworks and tactics.',
+      prerequisites: [],
+      pathway: [
+        { slug: 'marketing-first-principles', title: 'Marketing First Principles', isCurrentFramework: true },
+        { slug: 'jobs-to-be-done', title: 'Jobs-to-be-Done (JTBD)' },
+        { slug: 'value-proposition-canvas', title: 'Value Proposition Canvas' }
+      ],
+      alternatives: [
+        { slug: 'customer-journey-mapping', title: 'Customer Journey Mapping' }
+      ]
+    },
+
+    coreConcepts: [
     {
       title: 'What Are First Principles?',
       content: `First principles thinking is a problem-solving approach that breaks down complex problems into their most basic, foundational truths. Instead of reasoning by analogy ("X worked for Company Y, so it should work for us"), you reason from the ground up.
@@ -30,7 +43,19 @@ In marketing, this means understanding the fundamental truths about:
 • How information spreads
 • What builds trust and credibility
 
-When you understand these fundamentals, you can build marketing strategies that work for YOUR unique situation, not just copy what worked for someone else in a different context.`
+When you understand these fundamentals, you can build marketing strategies that work for YOUR unique situation, not just copy what worked for someone else in a different context.`,
+  embeddedResources: [
+          {
+            type: 'video',
+            data: {
+              title: 'First Principles Thinking — How to Reason From Fundamentals',
+              author: 'Farnam Street',
+              url: 'https://www.youtube.com/watch?v=yl5lCO1nN0s',
+              duration: '12:34',
+              whyWatch: 'Short primer on how to apply first principles thinking to problems, with marketing examples.'
+            }
+          }
+        ]
     },
     {
       title: 'The 5 Core Principles of Marketing',
@@ -140,20 +165,6 @@ If the fundamental truth is "We need to reach people with X problem," then:
       downloadUrl: '/templates/strategy-builder.pdf'
     }
   ],
-  
-  learningPath: {
-    description: 'Start here to build a solid foundation. Marketing First Principles is your entry point into strategic thinking.',
-    prerequisites: [],
-    pathway: [
-      { slug: 'marketing-first-principles', title: 'Marketing First Principles', isCurrentFramework: true },
-      { slug: 'jobs-to-be-done', title: 'Jobs-to-be-Done (JTBD)' },
-      { slug: 'value-proposition-canvas', title: 'Value Proposition Canvas' }
-    ],
-    alternatives: [
-      { slug: 'customer-journey-mapping', title: 'Customer Journey Mapping' }
-    ]
-  },
-  
   relatedFrameworks: [
     { title: 'Jobs-to-be-Done', slug: 'jobs-to-be-done' },
     { title: 'Value Proposition Canvas', slug: 'value-proposition-canvas' },

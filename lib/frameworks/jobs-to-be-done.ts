@@ -19,6 +19,21 @@ export const jobsToBeDoneFramework: FrameworkData = {
     'Segmenting customers based on motivation vs demographics',
   ],
   
+  learningPath: {
+    description: 'Master Jobs-to-be-Done by understanding customer motivations and progress before diving into tactical applications.',
+    prerequisites: [
+      { slug: 'marketing-first-principles', title: 'Marketing First Principles' }
+    ],
+    pathway: [
+      { slug: 'jobs-to-be-done', title: 'Jobs-to-be-Done (JTBD)', isCurrentFramework: true },
+      { slug: 'value-proposition-canvas', title: 'Value Proposition Canvas' },
+      { slug: 'hook-model', title: 'The Hook Model' }
+    ],
+    alternatives: [
+      { slug: 'customer-journey-mapping', title: 'Customer Journey Mapping' }
+    ]
+  },
+
   coreConcepts: [
     {
       title: 'The Core Concept',
@@ -37,7 +52,19 @@ This statement reveals:
 • **Motivation:** Impress guests (the emotional driver)
 • **Outcome:** Be seen as sophisticated (the identity shift)
 
-Notice how this is completely different from "I want cooking tools." The job isn't about cooking—it's about social status and identity.`
+Notice how this is completely different from "I want cooking tools." The job isn't about cooking—it's about social status and identity.`,
+  embeddedResources: [
+        {
+          type: 'video',
+          data: {
+            title: 'Jobs to Be Done — Explained',
+            author: 'Intercom',
+            url: 'https://www.youtube.com/watch?v=example-jtbd',
+            duration: '14:20',
+            whyWatch: 'Clear explanation of JTBD interviews and how to extract real jobs from customer stories.'
+          }
+        }
+      ]
     },
     {
       title: 'The Three Types of Jobs',
@@ -188,22 +215,6 @@ All are hired for different aspects of the same job clusters.`
       downloadUrl: '/templates/jtbd-segmentation.pdf'
     }
   ],
-  
-  learningPath: {
-    description: 'Master Jobs-to-be-Done by understanding customer motivations and progress before diving into tactical applications.',
-    prerequisites: [
-      { slug: 'marketing-first-principles', title: 'Marketing First Principles' }
-    ],
-    pathway: [
-      { slug: 'jobs-to-be-done', title: 'Jobs-to-be-Done (JTBD)', isCurrentFramework: true },
-      { slug: 'value-proposition-canvas', title: 'Value Proposition Canvas' },
-      { slug: 'hook-model', title: 'The Hook Model' }
-    ],
-    alternatives: [
-      { slug: 'customer-journey-mapping', title: 'Customer Journey Mapping' }
-    ]
-  },
-  
   relatedFrameworks: [
     { title: 'Marketing First Principles', slug: 'marketing-first-principles' },
     { title: 'Value Proposition Canvas', slug: 'value-proposition-canvas' },
