@@ -14,18 +14,14 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative z-10 px-6 py-24 text-center">
         <div className="container mx-auto max-w-5xl">
-          <div className="mb-6 inline-block animate-slide-down rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm font-semibold text-primary-light">
-            🚀 Now with AI-powered framework analysis
-          </div>
-
           <h1 className="mb-6 text-6xl font-black leading-tight tracking-tight text-gradient md:text-7xl">
-            Master Every Marketing Framework You'll Ever Need!
+            Master every marketing framework you&apos;ll ever need
           </h1>
 
           <p className="mx-auto mb-12 max-w-2xl text-xl leading-relaxed text-text-secondary">
-            Marketing strategy is scattered across 200+ books, 1000+ blogs, and countless frameworks.
+            You&apos;re already running campaigns. You already know the basics. But every new project feels like starting from scratch. Which framework should you use? What are you missing? Is there a better approach?
             <br />
-            See the entire marketing landscape in one visual map. Apply frameworks that works.
+            See every framework. Understand dependencies. Stop second-guessing.
           </p>
 
           <div className="mb-16 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -43,38 +39,46 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Feature Stats */}
+          {/* Stats Section */}
           <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
             <div className="text-center">
-              <div className="mb-2 font-mono text-5xl font-black text-primary-light">9+</div>
-              <div className="text-sm text-text-secondary">Interactive Roadmaps</div>
+              <div className="mb-2 font-mono text-5xl font-black text-primary-light">100+</div>
+              <div className="text-sm text-text-secondary">Frameworks → Organized by dependencies</div>
             </div>
             <div className="text-center">
-              <div className="mb-2 font-mono text-5xl font-black text-primary-light">90+</div>
-              <div className="text-sm text-text-secondary">Strategic Frameworks</div>
+              <div className="mb-2 font-mono text-5xl font-black text-primary-light">13</div>
+              <div className="text-sm text-text-secondary">Domains → Jump to your motion</div>
             </div>
             <div className="text-center">
-              <div className="mb-2 font-mono text-5xl font-black text-primary-light">5+hrs</div>
-              <div className="text-sm text-text-secondary">Saved Per Decision</div>
+              <div className="mb-2 font-mono text-5xl font-black text-primary-light">Zero</div>
+              <div className="text-sm text-text-secondary">Guesswork → Prerequisites shown upfront</div>
             </div>
             <div className="text-center">
               <div className="mb-2 font-mono text-5xl font-black text-primary-light">AI</div>
-              <div className="text-sm text-text-secondary">Powered Solution</div>
+              <div className="text-sm text-text-secondary">Solutions → Custom strategies builtfrom your problem</div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className="relative z-10 px-6 py-24">
+      {/* Problem Section */}
+      <section className="relative z-10 px-6 py-24 text-center">
         <div className="container mx-auto max-w-7xl">
-          <div className="mb-16 text-center">
-            <div className="mb-4 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-accent">
-              The Process
-            </div>
-            <h2 className="mb-4 text-5xl font-black tracking-tight">How It Works</h2>
+          <div className="mb-16">
+            <h2 className="mb-4 text-5xl font-black tracking-tight">Marketing doesn&apos;t get the result it deserves. Here&apos;s why.</h2>
             <p className="mx-auto max-w-2xl text-lg text-text-secondary">
-              No more jumping between books, blogs, and ChatGPT. See the complete map. Apply the right frameworks. Solve your problem.
+              Campaigns fail because we execute without enforced dependencies, opinionated defaults, and structural integrity.
+              <br />
+              Senior marketers know this instinctively. They&apos;ve built their own internal systems.
+              <br />
+              We&apos;re making that system public.
+            </p>
+          </div>
+
+          <div className="mb-16">
+            <h3 className="mb-4 text-3xl font-bold">How it works</h3>
+            <p className="mx-auto max-w-2xl text-lg text-text-secondary">
+              Stop googling frameworks every campaign
             </p>
           </div>
 
@@ -87,9 +91,11 @@ export default function Home() {
                 </div>
                 <div className="font-mono text-4xl font-black text-primary/20">01</div>
               </div>
-              <h3 className="mb-3 text-2xl font-bold">See the Complete Map</h3>
+              <h3 className="mb-3 text-2xl font-bold">Jump to your motion</h3>
               <p className="text-text-secondary">
-                Open any of our 9+ marketing roadmaps. See 98+ frameworks organized by how they actually connect. Dependencies shown. Prerequisites clear. No more guessing what comes first.
+                Pick your domain based on what you&apos;re running. Growth campaigns? Product launches? Content programs? Paid optimization?
+                <br />
+                See every framework that applies. What comes first is shown. What requires what is visible.
               </p>
             </div>
 
@@ -97,13 +103,15 @@ export default function Home() {
             <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-primary/50 hover:shadow-glow">
               <div className="mb-6 flex items-start justify-between">
                 <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-3xl">
-                  🔒
+                  🔍
                 </div>
                 <div className="font-mono text-4xl font-black text-primary/20">02</div>
               </div>
-              <h3 className="mb-3 text-2xl font-bold">Learn What You Need</h3>
+              <h3 className="mb-3 text-2xl font-bold">Check Prerequisites</h3>
               <p className="text-text-secondary">
-                Each framework shows you what problem it solves, when to use it, what you need to know first, and how to apply it. Practical examples from successful businesses included.
+                Each framework shows what must exist before it works. The foundation required. The inputs needed. The outputs guaranteed.
+                <br />
+                Real examples from companies that applied it successfully.
               </p>
             </div>
 
@@ -111,177 +119,230 @@ export default function Home() {
             <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-dark-surface p-8 transition-all hover:border-primary/50 hover:shadow-glow">
               <div className="mb-6 flex items-start justify-between">
                 <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-3xl">
-                  ⚡
+                  🤖
                 </div>
                 <div className="font-mono text-4xl font-black text-primary/20">03</div>
               </div>
-              <h3 className="mb-3 text-2xl font-bold">Get AI-Powered Solutions</h3>
+              <h3 className="mb-3 text-2xl font-bold">Get custom solutions (AI-powered)</h3>
               <p className="text-text-secondary">
-                Don't have time to navigate manually? Input your business problem. Our AI identifies which frameworks apply and outputs custom strategic solutions for your specific context. Minutes, not hours.
+                Don&apos;t have time to navigate frameworks manually? Describe your business problem. Our AI analyzes your context, selects the relevant frameworks, checks prerequisites, and outputs a complete strategic solution built specifically for your situation.
               </p>
             </div>
           </div>
 
-          {/* Visual Flow Diagram */}
+          {/* AI Section */}
           <div className="mt-16 rounded-2xl border border-white/10 bg-dark-elevated p-8">
-            <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
-              <div className="flex-1 text-center">
-                <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-4xl">
-                  📚
-                </div>
-                <h4 className="mb-2 font-bold">Strategic Foundations</h4>
-                <p className="text-sm text-text-tertiary">Build foundational understanding</p>
-              </div>
-              
-              <div className="text-4xl text-primary/30">→</div>
-              
-              <div className="flex-1 text-center">
-                <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-4xl">
-                  🧩
-                </div>
-                <h4 className="mb-2 font-bold">Core Frameworks</h4>
-                <p className="text-sm text-text-tertiary">Master proven methodologies</p>
-              </div>
-              
-              <div className="text-4xl text-primary/30">→</div>
-              
-              <div className="flex-1 text-center">
-                <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-4xl">
-                  🚀
-                </div>
-                <h4 className="mb-2 font-bold">Advanced Applications</h4>
-                <p className="text-sm text-text-tertiary">Execute with confidence</p>
-              </div>
+            <div className="mb-8">
+              <h3 className="mb-4 text-3xl font-bold">Let AI build your strategy</h3>
+              <p className="mx-auto max-w-2xl text-lg text-text-secondary">
+                Running a product launch next month? Trying to improve conversion rates? Need to build a demand gen engine?
+                <br />
+                Describe your problem. Get a custom strategy.
+              </p>
             </div>
-          </div>
 
-          {/* Key Differentiator */}
-          <div className="mt-12 rounded-2xl border border-accent/30 bg-gradient-to-br from-accent/5 to-transparent p-8">
-            <div className="flex items-start gap-4">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-accent/20 text-2xl">
-                💡
+            <div className="mb-8 text-center">
+              <p className="text-text-secondary mb-4">
+                Our AI is trained on all 98 frameworks, their dependencies, and real-world applications. It identifies which frameworks apply to your specific context, flags missing prerequisites, and outputs an executable strategy.
+              </p>
+              
+              {/* Example Inputs Box */}
+              <div className="rounded-xl border border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5 p-6 mb-6">
+                <p className="text-text-secondary mb-4 font-semibold text-primary-light">Example inputs:</p>
+                <div className="text-text-secondary space-y-3">
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>&quot;We&apos;re launching a B2B SaaS product in Q2. Target is mid-market finance teams. No brand recognition yet.&quot;</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>&quot;Our paid CAC is 3x higher than organic. Need to understand attribution and optimize channel mix.&quot;</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>&quot;Churn spiked 15% last quarter. Need a retention framework that works for PLG products.&quot;</span>
+                  </div>
+                </div>
               </div>
-              <div>
-                <h4 className="mb-2 text-xl font-bold">Why This Approach Works</h4>
-                <p className="text-text-secondary">
-                  The difference between junior and senior marketers is knowing which framework to use when, what prerequisites you need, and how to apply it to your specific context. We give you the complete map. You bring the problem. Together we solve it faster.
-                </p>
+              
+              {/* You Get Box */}
+              <div className="rounded-xl border border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5 p-6 mb-6">
+                <p className="text-text-secondary mb-4 font-semibold text-primary-light">You get:</p>
+                <div className="text-text-secondary space-y-3">
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>Which frameworks apply (and why)</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>What prerequisites you need</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>Step-by-step execution plan</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>Relevant examples from similar companies</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">→</span>
+                    <span>Metrics to track</span>
+                  </div>
+                </div>
               </div>
+              
+              <p className="text-text-secondary">
+                Navigate manually when you have time. Use AI when you don&apos;t.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <Link
+                href="#ai-analysis"
+                className="inline-block rounded-lg bg-primary px-8 py-4 font-semibold transition-all hover:-translate-y-1 hover:bg-primary-light hover:shadow-glow mr-4"
+              >
+                Try AI Analysis
+              </Link>
+              <Link
+                href="#example-output"
+                className="inline-block rounded-lg border border-white/10 bg-dark-surface px-8 py-4 font-semibold transition-all hover:border-primary hover:shadow-md"
+              >
+                See Example Output
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Role-Based Roadmaps */}
+      {/* Choose Your Domain */}
       <section id="roadmaps" className="relative z-10 px-6 py-24">
         <div className="container mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <div className="mb-4 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-accent">
-              Choose Your Domain
-            </div>
-            <h2 className="mb-4 text-5xl font-black tracking-tight">Choose Your Marketing Domain</h2>
+            <h2 className="mb-4 text-5xl font-black tracking-tight">Choose your domain</h2>
             <p className="mx-auto max-w-2xl text-lg text-text-secondary">
-              Nine visual roadmaps covering every strategic domain. 
-              <br />
-              See what comes first. Understand dependencies. Apply immediately.
+              13 domains covering every marketing discipline. Pick where you&apos;re working. See the frameworks that apply. Check dependencies. Execute.
             </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <RoadmapCard
               icon="📈"
-              title="Growth Marketing"
-              description="Build systematic growth engines. Master experimentation frameworks, 
-              acquisition models, and retention strategies that scale."
+              title="Growth marketing"
+              description="Build systematic growth engines. Master experimentation frameworks, acquisition models, and retention strategies that scale. Common use cases: Running growth experiments, building acquisition channels, optimizing conversion funnels, designing viral loops"
               difficulty="intermediate"
               duration="4-6 months"
               slug="growth-marketing"
             />
             <RoadmapCard
               icon="✍️"
-              title="Content Marketing"
-              description="Build authority through strategic content, distribution systems, and audience development."
+              title="Content marketing"
+              description="Build authority through strategic content, distribution systems, and audience development. Common use cases: Planning content strategy, building distribution channels, developing thought leadership, growing organic audiences"
               difficulty="beginner"
               duration="3-5 months"
               slug="content-marketing"
             />
             <RoadmapCard
               icon="🎯"
-              title="Product Marketing"
-              description="Position products that sell themselves. Master messaging frameworks, 
-              go-to-market strategies, and product-led growth."
+              title="Product marketing"
+              description="Position products that sell themselves. Master messaging frameworks, go-to-market strategies, and product-led growth. Common use cases: Product launches, messaging development, competitive positioning, GTM strategy"
               difficulty="intermediate"
               duration="4-7 months"
               slug="product-marketing"
             />
             <RoadmapCard
               icon="💰"
-              title="Performance Marketing"
-              description="Maximize ROAS across paid channels. Master campaign optimization, 
-              budget allocation, and performance analytics."
+              title="Performance marketing"
+              description="Maximize ROAS across paid channels. Master campaign optimization, budget allocation, and performance analytics. Common use cases: Managing paid campaigns, optimizing ad spend, channel attribution, budget planning"
               difficulty="advanced"
               duration="5-8 months"
               slug="performance-marketing"
             />
             <RoadmapCard
               icon="🎨"
-              title="Brand Marketing"
-              description="Build brands that command premium pricing. Master positioning strategy, 
-              brand architecture, and market perception."
+              title="Brand marketing"
+              description="Build brands that command premium pricing. Master positioning strategy, brand architecture, and market perception. Common use cases: Brand strategy development, positioning workshops, rebrands, market differentiation"
               difficulty="intermediate"
               duration="4-6 months"
               slug="brand-marketing"
             />
             <RoadmapCard
-              icon="⚙️"
-              title="Marketing Operations"
-              description="Build marketing infrastructure that scales. Master tech stack design, 
-              workflow automation, and operational excellence."
-              difficulty="advanced"
-              duration="5-7 months"
-              slug="marketing-operations"
+              icon="📊"
+              title="Marketing analytics"
+              description="Measure what actually drives growth. Master attribution, experimentation, and the metrics that matter for every domain. Common use cases: Setting up measurement, analyzing campaign performance, running experiments, proving ROI"
+              difficulty="intermediate"
+              duration="4-5 months"
+              slug="marketing-analytics"
             />
             <RoadmapCard
               icon="🔥"
-              title="Demand Generation"
-              description="Build predictable pipeline systems. Master lead generation frameworks, 
-              nurture strategies, and conversion optimization."
+              title="Demand generation"
+              description="Build predictable pipeline systems. Master lead generation frameworks, nurture strategies, and conversion optimization. Common use cases: Building pipeline, nurture program design, lead scoring, conversion optimization"
               difficulty="intermediate"
               duration="4-6 months"
               slug="demand-generation"
             />
             <RoadmapCard
               icon="💎"
-              title="Customer Marketing"
-              description="Turn customers into growth engines. Master retention frameworks, 
-              expansion strategies, and advocacy programs."
+              title="Customer marketing"
+              description="Turn customers into growth engines. Master retention frameworks, expansion strategies, and advocacy programs. Common use cases: Reducing churn, expanding accounts, building advocacy programs, customer lifecycle management"
               difficulty="beginner"
               duration="3-5 months"
               slug="customer-marketing"
             />
             <RoadmapCard
               icon="👨‍💻"
-              title="Developer Marketing"
-              description="Market to technical audiences effectively. Master developer-centric content, 
-              community building, and product adoption."
+              title="Developer marketing"
+              description="Market to technical audiences effectively. Master developer-centric content, community building, and product adoption. Common use cases: Developer content strategy, API documentation marketing, community building, technical adoption"
               difficulty="intermediate"
               duration="4-6 months"
               slug="developer-marketing"
+            />
+            <RoadmapCard
+              icon="🧠"
+              title="Marketing psychology"
+              description="Understand how humans think, decide, and act. Master the psychological principles behind every framework and campaign. Common use cases: Understanding customer behavior, applying persuasion principles, designing for behavior change, messaging psychology"
+              difficulty="intermediate"
+              duration="4-6 months"
+              slug="marketing-psychology"
+            />
+            <RoadmapCard
+              icon="✏️"
+              title="Copywriting"
+              description="Translate psychology and strategy into words that convert. Master copy frameworks, headline formulas, and conversion-focused writing. Common use cases: Writing landing pages, email sequences, ad copy, value propositions, CTAs"
+              difficulty="beginner"
+              duration="3-5 months"
+              slug="copywriting"
+            />
+            <RoadmapCard
+              icon="🎯"
+              title="Strategy frameworks"
+              description="Build foundational understanding. Master first principles, positioning, competitive analysis, and strategic planning. Common use cases: Strategic planning, positioning workshops, competitive analysis, market sizing, business model design"
+              difficulty="advanced"
+              duration="5-7 months"
+              slug="strategy-frameworks"
+            />
+            <RoadmapCard
+              icon="⚙️"
+              title="Marketing operations"
+              description="Build marketing infrastructure that scales. Master tech stack design, workflow automation, and operational excellence. Common use cases: Marketing stack selection, workflow design, process optimization, team structure, automation"
+              difficulty="advanced"
+              duration="5-7 months"
+              slug="marketing-operations"
             />
           </div>
         </div>
       </section>
 
-      {/* Framework Library Preview */}
+      {/* Framework Library */}
       <section id="frameworks" className="relative z-10 px-6 py-24">
         <div className="container mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <div className="mb-4 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-accent">
-              Framework Library
-            </div>
-            <h2 className="mb-4 text-5xl font-black tracking-tight">Master the Frameworks</h2>
+            <h2 className="mb-4 text-5xl font-black tracking-tight">Framework library</h2>
             <p className="mx-auto max-w-2xl text-lg text-text-secondary">
-              Deep-dive into 50+ marketing frameworks with practical examples, templates, and AI-powered application.
+              Every framework you&apos;ll actually use
+              <br />
+              100+ frameworks. Each one includes what problem it solves, what must exist before it works, what inputs it requires, what outputs it guarantees, and real examples from successful companies.
             </p>
           </div>
 
@@ -293,8 +354,8 @@ export default function Home() {
                   🧠
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold">Strategy Frameworks</h3>
-                  <p className="font-mono text-sm text-text-tertiary">15 frameworks</p>
+                  <h3 className="text-2xl font-bold">Strategy frameworks</h3>
+                  <p className="font-mono text-sm text-text-tertiary">20+ frameworks</p>
                 </div>
               </div>
               
@@ -328,8 +389,8 @@ export default function Home() {
                   🧬
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold">Customer Psychology</h3>
-                  <p className="font-mono text-sm text-text-tertiary">12 frameworks</p>
+                  <h3 className="text-2xl font-bold">Customer psychology</h3>
+                  <p className="font-mono text-sm text-text-tertiary">20+ frameworks</p>
                 </div>
               </div>
               
@@ -363,8 +424,8 @@ export default function Home() {
                   🚀
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold">Growth & Acquisition</h3>
-                  <p className="font-mono text-sm text-text-tertiary">12 frameworks</p>
+                  <h3 className="text-2xl font-bold">Growth & acquisition</h3>
+                  <p className="font-mono text-sm text-text-tertiary">20+ frameworks</p>
                 </div>
               </div>
               
@@ -397,69 +458,50 @@ export default function Home() {
               href="/frameworks"
               className="inline-block rounded-lg bg-primary px-8 py-4 font-semibold transition-all hover:-translate-y-1 hover:bg-primary-light hover:shadow-glow"
             >
-              View All 50+ Frameworks
+              View All 100+ Frameworks
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Community Stats */}
+      {/* Community Section */}
       <section id="community" className="relative z-10 px-6 py-24">
         <div className="container mx-auto max-w-5xl">
           <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-dark-surface to-dark-elevated p-12 text-center">
-            <h2 className="mb-4 text-4xl font-black">Join the Community</h2>
+            <h2 className="mb-4 text-4xl font-black">Thousands of practitioners have stopped guessing</h2>
             <p className="mx-auto mb-12 max-w-xl text-lg text-text-secondary">
-              Thousands of marketers are learning and growing together. Be part of something bigger.
+              300+ marketers using these frameworks in active campaigns
+              <br />
+              500+ practitioners who&apos;ve stopped reinventing strategy every quarter
+              <br />
+              800+ members discussing real implementation challenges
             </p>
 
-            <div className="grid gap-12 md:grid-cols-3">
-              <div className="text-center">
-                <div className="mb-2 font-mono text-5xl font-black text-primary-light">5.2K</div>
-                <div className="mb-3 text-base">GitHub Stars</div>
-                <div className="mb-4 flex items-center justify-center gap-2 text-sm font-semibold text-success">
-                  <span>↑ 200 this month</span>
-                </div>
-                <a
-                  href="https://github.com"
-                  className="inline-block font-semibold text-primary-light transition-colors hover:text-primary"
-                >
-                  Star us on GitHub →
-                </a>
-              </div>
-
-              <div className="text-center">
-                <div className="mb-2 font-mono text-5xl font-black text-primary-light">12.5K</div>
-                <div className="mb-3 text-base">Registered Users</div>
-                <div className="mb-4 flex items-center justify-center gap-2 text-sm font-semibold text-success">
-                  <span>↑ 1.2K this month</span>
-                </div>
-                <Link
-                  href="/signup"
-                  className="inline-block font-semibold text-primary-light transition-colors hover:text-primary"
-                >
-                  Sign up free →
-                </Link>
-              </div>
-
-              <div className="text-center">
-                <div className="mb-2 font-mono text-5xl font-black text-primary-light">3.8K</div>
-                <div className="mb-3 text-base">Discord Members</div>
-                <div className="mb-4 flex items-center justify-center gap-2 text-sm font-semibold text-success">
-                  <span>↑ 350 this month</span>
-                </div>
-                <a
-                  href="https://discord.com"
-                  className="inline-block font-semibold text-primary-light transition-colors hover:text-primary"
-                >
-                  Join Discord →
-                </a>
-              </div>
+            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <a
+                href="https://github.com"
+                className="inline-block rounded-lg border border-white/10 bg-dark-surface px-8 py-4 font-semibold transition-all hover:border-primary hover:shadow-md"
+              >
+                Star us on GitHub →
+              </a>
+              <Link
+                href="/signup"
+                className="inline-block rounded-lg bg-primary px-8 py-4 font-semibold transition-all hover:-translate-y-1 hover:bg-primary-light hover:shadow-glow"
+              >
+                Sign up free →
+              </Link>
+              <a
+                href="https://discord.com"
+                className="inline-block rounded-lg border border-white/10 bg-dark-surface px-8 py-4 font-semibold transition-all hover:border-primary hover:shadow-md"
+              >
+                Join Discord →
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Final CTA */}
       <section className="relative z-10 px-6 py-24">
         <div className="container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-accent p-16 text-center">
@@ -467,12 +509,10 @@ export default function Home() {
             
             <div className="relative z-10">
               <h2 className="mb-4 text-5xl font-black leading-tight">
-                Stop copying tactics.
-                <br />
-                Start understanding principles.
+                Stop reinventing marketing every campaign
               </h2>
               <p className="mx-auto mb-8 max-w-2xl text-xl opacity-90">
-                Learn marketing the right way. From fundamentals to frameworks to AI-powered application.
+                You already know how to execute. You just need to know which framework applies and what comes first.
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link
@@ -481,13 +521,10 @@ export default function Home() {
                 >
                   Get Started Free
                 </Link>
-                <Link
-                  href="#roadmaps"
-                  className="rounded-lg border border-white/30 bg-white/10 px-8 py-4 font-semibold backdrop-blur-sm transition-all hover:bg-white/20"
-                >
-                  Explore Roadmaps
-                </Link>
               </div>
+              <p className="mt-4 text-sm opacity-75">
+                Explore frameworks and roadmaps free. Upgrade for complete domain access and AI-powered strategy generation.
+              </p>
             </div>
           </div>
         </div>

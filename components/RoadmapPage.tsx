@@ -126,6 +126,9 @@ export default function RoadmapPage({ roadmapData }: RoadmapPageProps) {
                 connections={roadmapData.connections}
                 onNodeClick={setSelectedNodeId}
                 selectedNodeId={selectedNodeId}
+                layout={roadmapData.layout}
+                expandable={roadmapData.expandable}
+                defaultView={roadmapData.defaultView}
               />
             </div>
 
