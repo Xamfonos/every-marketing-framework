@@ -31,7 +31,7 @@ module.exports = {
         warning: '#FFB800',
       },
       fontFamily: {
-        display: ['var(--font-archivo)', 'sans-serif'],
+        display: ['var(--font-inter)', 'sans-serif'],
         mono: ['var(--font-jetbrains)', 'monospace'],
       },
       animation: {

@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { Archivo, JetBrains_Mono } from 'next/font/google'
+import { Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
-const archivo = Archivo({
+const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-archivo',
+  variable: '--font-inter',
   display: 'swap',
 })
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${archivo.variable} ${jetbrainsMono.variable}`}>
+    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="font-display">{children}</body>
     </html>
   )

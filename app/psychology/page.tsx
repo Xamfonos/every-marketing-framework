@@ -316,7 +316,7 @@ export default function PsychologyHub() {
 
           <div className="mt-12 text-center">
             <Link
-              href="/frameworks#psychology"
+              href="/coming-soon?for=framework-library"
               className="inline-block rounded-lg border border-primary/30 bg-primary/10 px-8 py-4 font-semibold text-primary transition-all hover:bg-primary/20"
             >
               View All Psychology Frameworks →
@@ -408,7 +408,7 @@ export default function PsychologyHub() {
                   Start Learning Psychology
                 </Link>
                 <Link
-                  href="/frameworks#psychology"
+                  href="/coming-soon?for=framework-library"
                   className="rounded-lg border border-white/30 bg-white/10 px-8 py-4 font-semibold backdrop-blur-sm transition-all hover:bg-white/20"
                 >
                   Browse All Frameworks

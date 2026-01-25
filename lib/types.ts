@@ -45,7 +45,8 @@ export interface RoadmapData {
   totalTopics: number
   nodes: RoadmapNode[]
   connections: RoadmapConnection[]
-  layout?: 'vertical' | 'horizontal-pillars'  // Layout mode
+  layout?: 'vertical' | 'horizontal-pillars' | 'pillar-grid'  // Layout mode
   expandable?: boolean  // Whether roadmap supports expand/collapse
   defaultView?: ViewMode  // Default view mode
+  pillarOrder?: string[]
 }
